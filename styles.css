@@ -1,0 +1,26 @@
+.icon-containers-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.button.flip {
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FDDC69;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.button.flip i {
+    font-size: 20px;
+    color: #333;
+}
