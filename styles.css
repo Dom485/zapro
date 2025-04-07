@@ -1,96 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'DM Sans', sans-serif;
-    background-color: #f5f5f5;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.container {
-    background-color: white;
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    width: 100%;
-    position: relative;
-}
-
-h1 {
-    font-family: 'Fraunces', serif;
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.welcome-text {
-    font-size: 1.2rem;
-    color: #666;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
 .icon-containers-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    margin-bottom: 40px;
-}
-
-.icon-container {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 20px;
-    background-color: #f8f8f8;
-    border-radius: 15px;
-    transition: transform 0.3s ease;
-}
-
-.icon-container:hover {
-    transform: translateY(-5px);
-}
-
-.iconbox {
-    width: 50px;
-    height: 50px;
-    background-color: #FDDC69;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-}
-
-.iconbox i {
-    font-size: 24px;
-    color: #333;
-}
-
-.content-container {
-    flex: 1;
-}
-
-.content-container h2 {
-    font-family: 'Fraunces', serif;
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.content-container p {
-    font-size: 1rem;
-    color: #666;
-    line-height: 1.5;
+    gap: 0px;
 }
 
 .button.flip {
@@ -107,35 +18,9 @@ h1 {
     align-items: center;
     justify-content: center;
     z-index: 2;
-    transition: transform 0.3s ease;
-}
-
-.button.flip:hover {
-    transform: scale(1.1);
 }
 
 .button.flip i {
     font-size: 20px;
     color: #333;
-}
-
-@media (max-width: 480px) {
-    .container {
-        padding: 20px;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    .icon-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .button.flip {
-        bottom: 20px;
-        right: 20px;
-    }
 }
